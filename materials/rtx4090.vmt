@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/rtx4090"
+	"$normalmap" "models/rtx4090_normal"
+	"$nolod" 1
+	"$model" 1
+}
