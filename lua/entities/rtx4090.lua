@@ -37,7 +37,7 @@ end
 
 function ENT:Use( ply )
 	if self.Active then return end
-	self:Ignite()
+	self:Ignite( 10 )
 	self.Snd:PlayEx( 0.5, 150 )
 	self.Active = true
 	timer.Simple( 10, function()
